@@ -28,6 +28,11 @@ angular
         controller: 'AboutCtrl',
         controllerAs: 'about'
       })
+      .when('/ayuda', {
+        templateUrl: 'views/ayuda.html',
+        controller: 'AyudaCtrl',
+        controllerAs: 'ayuda'
+      })
       .otherwise({
         redirectTo: '/'
       });
